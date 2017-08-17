@@ -1,3 +1,8 @@
+.description .mylink {
+  color: #d0f2fc;
+  text-decoration: none;
+  font-weight: bold;
+}
 .section .text p {
    font-weight: bold;
  }
