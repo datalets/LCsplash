@@ -1476,6 +1476,7 @@ big {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  background-color: cadetblue;
 }
 
 .navbar-small .logo-container .brand {
