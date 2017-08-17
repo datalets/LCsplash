@@ -1,10 +1,6 @@
-/*!
- * animate.css -http://daneden.me/animate
- * Version - 3.5.2
- * Licensed under the MIT license - http://opensource.org/licenses/MIT
- *
- * Copyright (c) 2017 Daniel Eden
- */
+.section .text p {
+   font-weight: bold;
+ }
 .animated {
   animation-duration: 1s;
   animation-fill-mode: both;
@@ -2179,7 +2175,16 @@ pre.prettyprint {
 }
 .presentation-page .section-components .image-container .components-macbook {
   width: auto;
-  left: -100px;
+  left: -40px;
+  top: 0;
+  height: 100%;
+  position: absolute;
+  border: 3px solid #FFFFFF;
+  border-radius: 20px;
+}
+.presentation-page .section-components .image-container .components-macbook2 {
+  width: auto;
+  left: -680px;
   top: 0;
   height: 100%;
   position: absolute;
@@ -2319,6 +2324,7 @@ pre.prettyprint {
   width: 75%;
   transition: transform .6s .9s;
   z-index: 2;
+  left: -100px;
 }
 .presentation-page .section-content .image-container .area-img, .presentation-page .image-container .info-img {
   position: absolute;
@@ -2330,7 +2336,7 @@ pre.prettyprint {
 }
 .presentation-page .section-content .image-container .area-img {
   top: 9%;
-  left: 45%;
+  left: 10%;
   height: 350px;
   width: 280px;
   z-index: 2;
@@ -2342,7 +2348,7 @@ pre.prettyprint {
 }
 .presentation-page .section-content .image-container .info-img {
   top: 40%;
-  left: -25%;
+  left: -55%;
   height: 350px;
   width: 280px;
   -webkit-transition: all 1s ease-out 0s;

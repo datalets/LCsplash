@@ -58,6 +58,9 @@ a:hover, a:focus {
 a:focus, a:active {
   outline: 0;
 }
+.text p {
+  font-weight: bold;
+}
 .presentation-page .section-components .image-container .components-macbook {
   width: auto;
   left: -100px;
@@ -1173,7 +1176,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
         width: 100%;
         min-height: 390px;
         padding: 10px 30px;
-        border: 1px solid #DDDDDD;
+        border: 3px solid #DDDDDD;
         border-radius: 10px;
         margin-top: 30px;
         text-align: center;
